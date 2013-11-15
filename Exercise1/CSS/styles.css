@@ -1,0 +1,51 @@
+html,body,a
+{
+	margin:0;
+	padding:0;
+}
+.container
+{
+	margin:10px;
+	width:160px;
+	height:240px;
+	float:left;
+	background:#FFEAEA url(../images/bg_star.gif) no-repeat bottom;
+}
+.unordered-list
+{
+	padding:10px;
+}
+#navcontainer ul
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#navcontainer a
+{
+	display:block;
+	color:#000000;
+	padding:.4em .8em;
+	width:170px;
+	text-decoration:none;
+	font:12px Verdana;
+	font-weight:100;
+}
+#navcontainer  ul ul a
+{
+	font:11px Verdana;
+	font-weight:100;
+}
+#navcontainer div > ul > li
+{
+	float:left;
+	margin:1px 2px 1px 2px;
+	border-left:8px solid #CC6666;
+	border-bottom:1px solid #CC6666;
+	width:130px;
+}
+#other li
+{
+	background:url(../images/arrow.GIF) no-repeat 1px;
+	margin:0 0 0 10px;
+}
